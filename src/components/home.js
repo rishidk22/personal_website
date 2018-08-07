@@ -4,7 +4,7 @@ import '../App.css';
 import Typist from 'react-typist'
 import 'react-typist/dist/Typist.css'
 
-const cursor  = {
+const cursor1  = {
     show: true,
     blink: true,
     element: '|',
@@ -12,11 +12,20 @@ const cursor  = {
     hideWhenDoneDelay: 500,
 }
 
+const cursor2  = {
+    show: true,
+    blink: true,
+    element: '|',
+    hideWhenDone: false,
+    hideWhenDoneDelay: 500,
+}
+
+
 class Home extends Component {
 
     constructor() {
         super();
-        this.state = {renderSecond: false}
+        this.state = {renderFirst: true, renderSecond: false}
     }
 
     setNext = () =>
@@ -25,14 +34,26 @@ class Home extends Component {
 
     render() {
         return (
-            <div>
-                <Typist className = 'home-header' startDelay = {500} cursor = {cursor} onTypingDone={this.setNext}>
+            <div className="home">
+                <Typist className = 'home-header' startDelay = {500} cursor = {cursor1} onTypingDone={this.setNext}>
                     rishi kalluri
                 </Typist>
                 <div>
                     {this.state.renderSecond ? (
-                        <Typist className = 'home-content' startDelay = {1500} blink = {true} cursor = {cursor}>
+                        <Typist className = 'home-content' startDelay = {1500} blink = {true} cursor = {cursor2}>
                             B.E. Computer Engineering 2020, UIUC
+                            <Typist.Delay ms={1000}/>
+                            <br />
+                            <br />
+                            ./experience
+                            <br />
+                            ./projects
+                            <br />
+                            ./resume
+                            <br />
+                            ./skills
+                            <br />
+                            ./about
                         </Typist>
                     ) : null
                     }
