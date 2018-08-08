@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import '../App.css';
+import {Link} from 'react-router-dom';
+
 
 import Typist from 'react-typist'
 import 'react-typist/dist/Typist.css'
@@ -47,9 +49,9 @@ class Home extends Component {
                             <br />
                             ./experience
                             <br />
-                            ./projects
+                            <Link to='/projects'>./projects</Link>
                             <br />
-                            ./resume
+                            <Link to="/resume">./resume</Link>
                             <br />
                             ./skills
                             <br />

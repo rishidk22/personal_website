@@ -107,3 +107,19 @@ body {
     color: black;
   }
 }
+
+.center {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.github-project{
+  border-radius: 50%;
+  width:5%;
+  height: auto;
+}
+
+a {
+  color: white;
+  text-decoration: None !important;
+}
