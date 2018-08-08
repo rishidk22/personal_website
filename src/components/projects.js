@@ -18,7 +18,8 @@ class Projects extends Component {
     render() {
         return (
             <div>
-
+                <Typist className='home-content'>Click on a project to learn more about it!</Typist>
+                <br/>
                 <Card.Group itemsPerRow={2}>
                     <Card raised={true} color='white'>
                         <Card.Content>

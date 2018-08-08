@@ -31,7 +31,6 @@ if (uri != null && uri.toString().startsWith(redirectUri)) {
             <SyntaxHighlighter
                 language="java"
                 style={railscasts}
-                showLineNumbers="true"
             >
                 {CodeString}
             </SyntaxHighlighter>

@@ -35,7 +35,6 @@ if __name__ == "__main__":
             <SyntaxHighlighter
                 language="python"
                 style={railscasts}
-                showLineNumbers="true"
             >
                 {CodeString}
             </SyntaxHighlighter>

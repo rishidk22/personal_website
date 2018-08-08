@@ -35,7 +35,6 @@ def createAccount():
             <SyntaxHighlighter
                 language="python"
                 style={railscasts}
-                showLineNumbers="true"
             >
                 {CodeString}
             </SyntaxHighlighter>
