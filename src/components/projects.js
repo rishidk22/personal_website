@@ -2,9 +2,8 @@ import React, {Component} from 'react';
 import '../App.css';
 import { Card, Modal } from 'semantic-ui-react';
 
-import Typist from 'react-typist'
-import 'react-typist/dist/Typist.css'
-
+import Typist from 'react-typist';
+import 'react-typist/dist/Typist.css';
 import RunsafeSnippet from './subcomponents/codeSnippets/runsafeSnippet';
 import SfpdSnippet from './subcomponents/codeSnippets/sfpdSnippet';
 import SubspotSnippet from './subcomponents/codeSnippets/subspotSnippet';
@@ -21,7 +20,7 @@ class Projects extends Component {
     render() {
         return (
             <div>
-                <Typist className='home-content' startDelay={500}>Click on a project to learn more about it!</Typist>
+                <Typist className='home-content' startDelay={500}>Click on a project to learn more!</Typist>
                 <br/>
                 <Card.Group itemsPerRow={2}>
                     <Modal trigger = {
