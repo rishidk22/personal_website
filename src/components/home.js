@@ -46,13 +46,11 @@ class Home extends Component {
                             <Typist.Delay ms={1000}/>
                             <br />
                             <br />
-                            ./work
+                            <Link to='/work'>./work</Link>
                             <br />
                             <Link to='/projects'>./projects</Link>
                             <br />
                             <Link to="/resume">./resume</Link>
-                            <br />
-                            ./skills
                             <br />
                             ./about
                         </Typist>

@@ -66,9 +66,6 @@ class Navi extends Component {
                                     <Link to='/resume'>resume</Link>
                                 </li>
                                 <li>
-                                    <Link to='/skills'>skills</Link>
-                                </li>
-                                <li>
                                     <Link to='/about'>about</Link>
                                 </li>
                             </ul>
