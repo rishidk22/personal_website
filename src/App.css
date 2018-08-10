@@ -119,6 +119,16 @@ body {
   height: auto;
 }
 
+.work-timeline {
+  color: black;
+}
+
+.physIQ-logo{
+  width: 61px;
+  height: auto;
+  border-radius: 25px;
+}
+
 a {
   color: white;
   text-decoration: None !important;

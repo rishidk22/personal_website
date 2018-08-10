@@ -12,7 +12,7 @@ export default (
             <Route component = {Home} exact path = "/" />
             <Route component = {Resume} exact path = "/resume"/>
             <Route component = {Projects} exact path = '/projects'/>
-            <Route component = {Work} exact path = '/work'/>
+            <Route component = {Work} exact path = '/experience'/>
         </Switch>
     </div>
 )

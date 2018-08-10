@@ -57,7 +57,7 @@ class Navi extends Component {
                         <Menu className='text-right'>
                             <ul>
                                 <li>
-                                    <Link to='/work'>work</Link>
+                                    <Link to='/experience'>experience</Link>
                                 </li>
                                 <li>
                                     <Link to='/projects'>projects</Link>
