@@ -71,7 +71,11 @@ class Work extends React.Component {
               <h4 >Software Engineering Intern</h4>
               <p>
                   {physiqStack}<br/>
-                  Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                  Debugged existing Python integration tests to prevent errors in nightly Jenkins pipeline, and improved test coverage by over 50%
+                  <br/><br/>
+                  Wrote comprehensive API docs with React.js to automatically generate off Open-API specification, containerized docs with Docker
+                  <br/><br/>
+                  Developed tooling to import dense, serialized sensor data with Flatbuffers into the clinical system
               </p>
           </VerticalTimelineElement>
 
@@ -84,7 +88,9 @@ class Work extends React.Component {
               <h4 >Software Engineering Summit</h4>
               <p>
                   {capitaloneStack}<br/>
-                  Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                  Created an application to detect and prevent unnecessary subscription payments through user's bank and browser information
+                  <br/><br/>
+                  Worked to develop small scale projects with a variety of technologies (AWS, Android, Dialogflow, etc.)
               </p>
           </VerticalTimelineElement>
 
@@ -96,8 +102,10 @@ class Work extends React.Component {
               <h3 className="vertical-timeline-element-title">Noonlight</h3>
               <h4 >Android Development Consultant</h4>
               <p>
-                  {safetrekStack}
-                  Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                  {safetrekStack} <br/>
+                  Constructed an Android Application to send a distress signal with the user's location to 911 and a list of emergency contacts
+                  <br/><br/>
+                  Designed integrations for Android applications to use social media as a source of emergency contacts
               </p>
           </VerticalTimelineElement>
 
@@ -109,8 +117,10 @@ class Work extends React.Component {
               <h3 className="vertical-timeline-element-title">Swarm Robotix</h3>
               <h4 >Robotics Intern</h4>
               <p>
-                  {swarmStack}
-                  Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                  {swarmStack} <br/>
+                  Generated prototype designs for a autonomous robotic system to replace AGVs for container transport, reducing container backup by 33%
+                  <br/><br/>
+                  Constructed proof of concept for robotic system, and led its presentation to industry executives and investors
               </p>
           </VerticalTimelineElement>
 

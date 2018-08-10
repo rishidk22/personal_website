@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91b4f837-5401-4803-a551-96916e099000" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/subcomponents/projectModals/substopModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/subcomponents/projectModals/substopModal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/work.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -127,8 +125,8 @@
       <file leaf-file-name="work.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/work.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="826">
-              <caret line="112" column="18" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
+            <state relative-caret-position="661">
+              <caret line="122" column="128" selection-start-line="122" selection-start-column="128" selection-end-line="122" selection-end-column="128" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -201,10 +199,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1985" />
-    <option name="y" value="-4" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
     <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -262,7 +260,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/physIQ/redoc-prototype" />
+    <property name="last_opened_file_path" value="$USER_HOME$/physIQ/cloud" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -332,15 +330,15 @@
       <option name="presentableId" value="Default" />
       <updated>1533608714115</updated>
       <workItem from="1533608718021" duration="6023000" />
-      <workItem from="1533741604235" duration="37557000" />
+      <workItem from="1533741604235" duration="40268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43580000" />
+    <option name="totallyTimeSpent" value="46291000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -668,8 +666,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/work.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
-          <caret line="112" column="18" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
+        <state relative-caret-position="661">
+          <caret line="122" column="128" selection-start-line="122" selection-start-column="128" selection-end-line="122" selection-end-column="128" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
