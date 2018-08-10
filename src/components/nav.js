@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ResponsiveMenu from 'react-responsive-navbar';
 import {Link} from 'react-router-dom';
-import { FaBars, FaAngleUp } from 'react-icons/fa';
+import { FaBars, FaAngleUp, FaHome } from 'react-icons/fa';
 import styled from 'styled-components';
 import '../App.css';
 
@@ -54,22 +54,28 @@ class Navi extends Component {
                     menuOpenButton={<FaBars size={30}/>}
                     menuCloseButton={<FaAngleUp size={30}/>}
                     menu={
-                        <Menu className='text-right'>
-                            <ul>
-                                <li>
-                                    <Link to='/experience'>experience</Link>
-                                </li>
-                                <li>
-                                    <Link to='/projects'>projects</Link>
-                                </li>
-                                <li>
-                                    <Link to='/resume'>resume</Link>
-                                </li>
-                                <li>
-                                    <Link to='/about'>about</Link>
-                                </li>
-                            </ul>
-                        </Menu>
+                        <div>
+                            <Menu className='text-right'>
+                                <ul>
+                                    <li>
+                                        <Link to='/'>~home</Link>
+                                    </li>
+                                    <li>
+                                        <Link to='/experience'>~experience</Link>
+                                    </li>
+                                    <li>
+                                        <Link to='/projects'>~projects</Link>
+                                    </li>
+                                    <li>
+                                        <Link to='/resume'>~resume</Link>
+                                    </li>
+                                    <li>
+                                        <Link to='/about'>~about</Link>
+                                    </li>
+                                </ul>
+                            </Menu>
+
+                        </div>
                     }
                 />
             </div>
