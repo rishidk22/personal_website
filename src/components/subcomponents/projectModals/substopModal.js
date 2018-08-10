@@ -34,13 +34,13 @@ const panes = [
 
 const stack = (
     <div>
-        <Button basic color='teal'>Python</Button>
-        <Button basic color='teal'>Flask</Button>
-        <Button basic color='teal'>JavaScript</Button>
-        <Button basic color='teal'>HTML</Button>
-        <Button basic color='teal'>CSS</Button>
-        <Button basic color='teal'>AWS S3</Button>
-        <Button basic color='teal'>AWS EC2</Button>
+        <Button color='teal'>Python</Button>
+        <Button color='teal'>Flask</Button>
+        <Button color='teal'>JavaScript</Button>
+        <Button color='teal'>HTML</Button>
+        <Button color='teal'>CSS</Button>
+        <Button color='teal'>AWS S3</Button>
+        <Button color='teal'>AWS EC2</Button>
     </div>
 
 );
