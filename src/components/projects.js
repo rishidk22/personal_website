@@ -12,6 +12,19 @@ import RunsafeModal from './subcomponents/projectModals/runsafeModal';
 import SfpdModal from './subcomponents/projectModals/sfpdModal';
 import SubstopModal from './subcomponents/projectModals/substopModal';
 
+
+const inlineStyle = {
+  modal : {
+    marginTop: '0px !important',
+    marginLeft: 'auto',
+    marginRight: 'auto'
+  }
+};
+
+const divStyle = {
+    position: 'relative'
+};
+
 class Projects extends Component {
     constructor() {
         super();
@@ -19,11 +32,11 @@ class Projects extends Component {
 
     render() {
         return (
-            <div>
+            <div style={divStyle}>
                 <Typist className='home-content' startDelay={500}>Click on a project to learn more!</Typist>
                 <br/>
                 <Card.Group itemsPerRow={2}>
-                    <Modal trigger = {
+                    <Modal style={inlineStyle.modal} trigger = {
                         <Card raised={true} color='white'>
                             <Card.Content>
                                 <Card.Header>SubStop Chrome Extension & REST API</Card.Header>

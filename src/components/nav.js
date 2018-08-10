@@ -41,6 +41,8 @@ const Menu = styled.div`
     }
     `;
 
+
+
 class Navi extends Component {
     constructor() {
         super();

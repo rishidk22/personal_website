@@ -133,3 +133,8 @@ a {
   color: white;
   text-decoration: None !important;
 }
+
+.text-right {
+  text-align: right !important;
+  margin-top: -25px;
+}
