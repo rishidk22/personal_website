@@ -45,8 +45,6 @@ const stack = (
 
 );
 
-
-
 class SubstopModal extends Component {
     constructor() {
         super();
@@ -57,7 +55,6 @@ class SubstopModal extends Component {
             <div>
                 <GithubCorner href="https://github.com/rishidk22/subStop-c1-hackathon"/>
                 {stack}
-
                 <p className='work-timeline'>
                     <br/>
                     <Tab menu={{fluid: true, vertical: true, tabular: true}} panes={panes}/>

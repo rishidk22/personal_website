@@ -1,5 +1,7 @@
 import React from "react";
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import { Button } from 'semantic-ui-react';
+
 import 'react-vertical-timeline-component/style.min.css';
 import CapitaloneCard from './subcomponents/workCards/capitaloneCard';
 import PhysiqCard from './subcomponents/workCards/physiqCard';
@@ -8,6 +10,50 @@ import SwarmCard from './subcomponents/workCards/swarmCard';
 
 const VALUES = ["2018-05-15", "2018-05-14", "2018-03-15", "2017-05-15"];
 const divs = [<PhysiqCard/>, <CapitaloneCard/>, <SafetrekCard/>, <SwarmCard/>];
+
+const physiqStack = (
+    <div>
+        <Button basic color='blue' size='mini'>Python</Button>
+        <Button basic color='blue' size='mini'>Flask</Button>
+        <Button basic color='blue' size='mini'>React.js</Button>
+        <Button basic color='blue' size='mini'>MySQL</Button>
+        <Button basic color='blue' size='mini'>Flatbuffers</Button>
+        <Button basic color='blue' size='mini'>Cucumber</Button>
+        <Button basic color='blue' size='mini'>Vagrant</Button>
+        <Button basic color='blue' size='mini'>Docker</Button>
+    </div>
+);
+
+const capitaloneStack = (
+    <div>
+        <Button basic color='blue' size='mini'>Python</Button>
+        <Button basic color='blue' size='mini'>Flask</Button>
+        <Button basic color='blue' size='mini'>Sklearn</Button>
+        <Button basic color='blue' size='mini'>Java</Button>
+        <Button basic color='blue' size='mini'>Android</Button>
+        <Button basic color='blue' size='mini'>Swift</Button>
+        <Button basic color='blue' size='mini'>AWS</Button>
+        <Button basic color='blue' size='mini'>Dialoglow</Button>
+    </div>
+);
+
+const safetrekStack = (
+    <div>
+        <Button basic color='blue' size='mini'>Java</Button>
+        <Button basic color='blue' size='mini'>Android</Button>
+        <Button basic color='blue' size='mini'>HTTP</Button>
+        <Button basic color='blue' size='mini'>JSON</Button>
+    </div>
+);
+
+const swarmStack = (
+    <div>
+        <Button basic color='blue' size='mini'>AutoDesk Fusion</Button>
+        <Button basic color='blue' size='mini'>AutoDesk Inventor</Button>
+        <Button basic color='blue' size='mini'>Arduino</Button>
+        <Button basic color='blue' size='mini'>Java</Button>
+    </div>
+)
 
 class Work extends React.Component {
   state = { value: 0, previous: 0 };
@@ -23,9 +69,9 @@ class Work extends React.Component {
             >
               <h3 className="vertical-timeline-element-title">physIQ</h3>
               <h4 >Software Engineering Intern</h4>
-              <h5 >Chicago, IL</h5>
               <p>
-                Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                  {physiqStack}<br/>
+                  Creative Direction, User Experience, Visual Design, Project Management, Team Leading
               </p>
           </VerticalTimelineElement>
 
@@ -36,9 +82,9 @@ class Work extends React.Component {
             >
               <h3 className="vertical-timeline-element-title">Capital One Labs</h3>
               <h4 >Software Engineering Summit</h4>
-              <h5>Arlington, VA </h5>
               <p>
-                Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                  {capitaloneStack}<br/>
+                  Creative Direction, User Experience, Visual Design, Project Management, Team Leading
               </p>
           </VerticalTimelineElement>
 
@@ -49,9 +95,9 @@ class Work extends React.Component {
             >
               <h3 className="vertical-timeline-element-title">Noonlight</h3>
               <h4 >Android Development Consultant</h4>
-              <h5 >St. Louis, MI (Remote)</h5>
               <p>
-                Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                  {safetrekStack}
+                  Creative Direction, User Experience, Visual Design, Project Management, Team Leading
               </p>
           </VerticalTimelineElement>
 
@@ -62,9 +108,9 @@ class Work extends React.Component {
             >
               <h3 className="vertical-timeline-element-title">Swarm Robotix</h3>
               <h4 >Robotics Intern</h4>
-              <h5 >Oswego, IL</h5>
               <p>
-                Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                  {swarmStack}
+                  Creative Direction, User Experience, Visual Design, Project Management, Team Leading
               </p>
           </VerticalTimelineElement>
 
