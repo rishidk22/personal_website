@@ -15,13 +15,20 @@ const about = (
 
 const frontEnd = (
     <p className='work-timeline'>
-        fjfj
+        The frontend of this application was created using JavaScript, HTML, and CSS, to create a chrome extension form. The form
+        takes in dummy account information, as well as a phone number and bank account information. The info is then POSTed to the
+        Python backend, to create and account, create a list of subscriptions, etc. Additionally, the chrome extension checks if the
+        user's subscriptions are being used (by checkng the domain of the accessed websites).
     </p>
 );
 
 const backEnd = (
     <p className='work-timeline'>
-        jsf;sld
+        The backend is an API created with Python and Flask. This API takes information from a POST request to create a user account,
+        and stores the information in JSON form in an Amazon S3 bucket. Then, a list of subscription payments is created using the
+        account bank information, and the NESSIE API. This list is then stored as JSON files in the account. This JSON file has a field
+        that stores the last time the service was accessed. If too much time passed between uses, the user is notified via text that
+        they are not using that particular subscription service.
     </p>
 );
 

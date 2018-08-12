@@ -51,8 +51,6 @@ class Home extends Component {
                             <Link to='/projects'>./projects</Link>
                             <br />
                             <Link to="/resume">./resume</Link>
-                            <br />
-                            ./about
                         </Typist>
                     ) : null
                     }
