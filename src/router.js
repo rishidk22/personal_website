@@ -9,6 +9,7 @@ import Work from './components/work'
 export default (
     <div>
         <Switch>
+            <Route component = {Home} exact path = "/"/>
             <Route component = {Home} exact path = "/personal_website" />
             <Route component = {Resume} exact path = "/personal_website/resume"/>
             <Route component = {Projects} exact path = '/personal_website/projects'/>
