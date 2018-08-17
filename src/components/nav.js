@@ -60,16 +60,16 @@ class Navi extends Component {
                             <Menu className='text-right'>
                                 <ul>
                                     <li>
-                                        <Link to='/'>~home</Link>
+                                        <Link to='/personal_website'>~home</Link>
                                     </li>
                                     <li>
-                                        <Link to='/experience'>~experience</Link>
+                                        <Link to='/personal_website/experience'>~experience</Link>
                                     </li>
                                     <li>
-                                        <Link to='/projects'>~projects</Link>
+                                        <Link to='/personal_website/projects'>~projects</Link>
                                     </li>
                                     <li>
-                                        <Link to='/resume'>~resume</Link>
+                                        <Link to='/personal_website/resume'>~resume</Link>
                                     </li>
                                 </ul>
                             </Menu>
