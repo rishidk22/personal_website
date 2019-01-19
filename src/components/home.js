@@ -46,7 +46,7 @@ class Home extends Component {
                             <Typist.Delay ms={1000}/>
                             <br />
                             <br />
-                            <Link to='/personal_website/xperience'>./experience</Link>
+                            <Link to='/personal_website/experience'>./experience</Link>
                             <br />
                             <Link to='/personal_website/projects'>./projects</Link>
                             <br />
