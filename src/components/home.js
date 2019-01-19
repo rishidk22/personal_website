@@ -44,13 +44,7 @@ class Home extends Component {
                         <Typist className = 'home-content' startDelay = {1500} blink = {true} cursor = {cursor2}>
                             B.E. Computer Engineering 2020, UIUC
                             <Typist.Delay ms={1000}/>
-                            <br />
-                            <br />
-                            <Link to='/personal_website/experience'>./experience</Link>
-                            <br />
-                            <Link to='/personal_website/projects'>./projects</Link>
-                            <br />
-                            <Link to="/personal_website/resume">./resume</Link>
+                            
                         </Typist>
                     ) : null
                     }
