@@ -17,7 +17,7 @@ class Resume extends Component {
         return (
           <div className="center">
             <Document
-                file={resume}
+                file={"../Resume.pdf"}
              >
                 <Page width={1735} pageNumber={this.state.pageNumber} scale={2}/>
             </Document>
