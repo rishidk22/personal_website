@@ -39,14 +39,14 @@ class Projects extends Component {
                 <Card.Group stackable={true} doubling={true} itemsPerRow={3}>
                   <Card raised={true}>
                       <Card.Content>
-                        <GithubCorner href="https://github.com/rishidk22/subStop-c1-hackathon"/>
+                        <GithubCorner href="https://github.com/rishidk22/"/>
                         <KernelModal/>
                       </Card.Content>
                   </Card>
 
                   <Card raised={true}>
                       <Card.Content>
-                        <GithubCorner href="https://github.com/rishidk22/subStop-c1-hackathon"/>
+                        <GithubCorner href="https://github.com/rishidk22/"/>
                         <CryptoModal/>
                       </Card.Content>
                   </Card>
@@ -60,21 +60,21 @@ class Projects extends Component {
 
                   <Card raised={true}>
                       <Card.Content>
-                        <GithubCorner href="https://github.com/rishidk22/subStop-c1-hackathon"/>
+                        <GithubCorner href="https://github.com/rishidk22/pulse_countdown_page"/>
                         <PulseModal/>
                       </Card.Content>
                   </Card>
 
                   <Card raised={true}>
                       <Card.Content>
-                        <GithubCorner href="https://github.com/rishidk22/subStop-c1-hackathon"/>
+                        <GithubCorner href="https://github.com/rishidk22/SFPDDataAnalysis"/>
                         <SfpdModal/>
                       </Card.Content>
                   </Card>
-                  
+
                   <Card raised={true}>
                       <Card.Content>
-                        <GithubCorner href="https://github.com/rishidk22/subStop-c1-hackathon"/>
+                        <GithubCorner href="https://github.com/rishidk22/RunSafe"/>
                         <RunsafeModal/>
                       </Card.Content>
                   </Card>
