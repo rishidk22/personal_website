@@ -25,10 +25,8 @@ class CryptoModal extends Component {
             <div style={{color: '#FFD42C'}}><FiFolder size={32}/></div>
                 <GithubCorner href="https://github.com/rishidk22/subStop-c1-hackathon"/>
                 <h>Crypto Price Prediction</h>
-                <p>dfhjakldshfjalksdfjkas;dfjkal;sdjfkasl;dfjkasdl;fjas;dfjka;sdjfka;sdjfkad;sfj
-                jfkd;lasdjf;lasdjf
-                dfjaskdf;jasd;lfajksd
-                dfjkas;dfjkasd;dfhjakldshfjalksdfjkasjaksfd;lajsdklf;a</p>
+                <p>Cryptocurrency price predictor, leveraging IBM Watson to run sentiment analysis on
+                bitcoin articles, and correlating them with previous price inflection.</p>
 
               <div className="bottom">{stack}</div>
             </div>

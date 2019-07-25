@@ -30,8 +30,6 @@ const capitalOneStack = (
 
 );
 
-
-
 const pulse =  { position: 'Web Director',
                   company: '@ ECE Pulse',
                   dates: 'April 2019 - Present',

@@ -23,11 +23,8 @@ class KernelModal extends Component {
             <div style={{color: '#FFD42C'}}><FiFolder size={32}/></div>
                 <GithubCorner href="https://github.com/rishidk22/subStop-c1-hackathon"/>
                 <h>Kernel</h>
-                <p>dfhjakldshfjalksdfjkas;dfjkal;sdjfkasl;dfjkasdl;fjas;dfjka;sdjfka;sdjfkad;sfj
-                jfkd;lasdjf;lasdjf
-                dfjaskdf;jasd;lfajksd
-                dfjkas;dfjkasd;dfhjakldshfjalksdfjkasjaksfd;lajsdklf;a</p>
-
+                <p>Constructed kernel to mimic x86 Linux kernel, with fully implemented terminal,
+                virtual memory, and CFS scheduler to allow for optimal program execution. </p>
               <div className="bottom">{stack}</div>
             </div>
         )

@@ -26,10 +26,8 @@ class SubstopModal extends Component {
             <div style={{color: '#FFD42C'}}><FiFolder size={32}/></div>
                 <GithubCorner href="https://github.com/rishidk22/subStop-c1-hackathon"/>
                 <h>SubStop</h>
-                <p>dfhjakldshfjalksdfjkas;dfjkal;sdjfkasl;dfjkasdl;fjas;dfjka;sdjfka;sdjfkad;sfj
-                jfkd;lasdjf;lasdjf
-                dfjaskdf;jasd;lfajksd
-                dfjkas;dfjkasd;dfhjakldshfjalksdfjkasjaksfd;lajsdklf;a</p>
+                <p>Subscription management service to prevent payments for unused services, alerting the user
+                when they have not used a subscription within a certain time period.</p>
 
               <div className="bottom">{stack}</div>
             </div>

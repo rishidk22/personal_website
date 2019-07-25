@@ -25,10 +25,8 @@ class PulseModal extends Component {
             <div style={{color: '#FFD42C'}}><FiFolder size={32}/></div>
                 <GithubCorner href="https://github.com/rishidk22/subStop-c1-hackathon"/>
                 <h>Pulse Webapp</h>
-                <p>dfhjakldshfjalksdfjkas;dfjkal;sdjfkasl;dfjkasdl;fjas;dfjka;sdjfka;sdjfkad;sfj
-                jfkd;lasdjf;lasdjf
-                dfjaskdf;jasd;lfajksd
-                dfjkas;dfjkasd;dfhjakldshfjalksdfjkasjaksfd;lajsdklf;a</p>
+                <p>Web application to display event information about ECE Pulse event as well as
+                store and query user registration information.</p>
 
               <div className="bottom">{stack}</div>
             </div>

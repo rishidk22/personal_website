@@ -26,10 +26,9 @@ class SubstopModal extends Component {
             <div style={{color: '#FFD42C'}}><FiFolder size={32}/></div>
                 <GithubCorner href="https://github.com/rishidk22/subStop-c1-hackathon"/>
                 <h>SFPD Analysis</h>
-                <p>dfhjakldshfjalksdfjkas;dfjkal;sdjfkasl;dfjkasdl;fjas;dfjka;sdjfka;sdjfkad;sfj
-                jfkd;lasdjf;lasdjf
-                dfjaskdf;jasd;lfajksd
-                dfjkas;dfjkasd;dfhjakldshfjalksdfjkasjaksfd;lajsdklf;a</p>
+                <p>Data analysis of San Francisco Police Department information, visualizing important
+                trends and problem areas, as well as a prediction tool to estimate the most likely service
+                needed given a location and time.</p>
 
               <div className="bottom">{stack}</div>
             </div>
