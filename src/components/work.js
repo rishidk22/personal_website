@@ -2,6 +2,8 @@ import React from "react";
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import { Button } from 'semantic-ui-react';
 
+import Particles from './particles'
+
 import 'react-vertical-timeline-component/style.min.css';
 import CapitaloneCard from './subcomponents/workCards/capitaloneCard';
 import PhysiqCard from './subcomponents/workCards/physiqCard';
@@ -61,6 +63,7 @@ class Work extends React.Component {
   render() {
     return (
       <div>
+        
         <VerticalTimeline animate={true}>
           <VerticalTimelineElement
             className="work-timeline"

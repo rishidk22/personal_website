@@ -6,16 +6,15 @@ import {FiFolder} from 'react-icons/fi'
 
 const stack = (
     <div>
+        <Button color='teal'>React.js</Button>
         <Button color='teal'>Python</Button>
         <Button color='teal'>Flask</Button>
-        <Button color='teal'>Heroku</Button>
-        <Button color='teal'>Pandas</Button>
-        <Button color='teal'>SkLearn</Button>
+        <Button color='teal'>SQL</Button>
     </div>
 
 );
 
-class SubstopModal extends Component {
+class PulseModal extends Component {
     constructor() {
         super();
     }
@@ -25,7 +24,7 @@ class SubstopModal extends Component {
             <div className="project_modal">
             <div style={{color: '#FFD42C'}}><FiFolder size={32}/></div>
                 <GithubCorner href="https://github.com/rishidk22/subStop-c1-hackathon"/>
-                <h>SFPD Analysis</h>
+                <h>Pulse Webapp</h>
                 <p>dfhjakldshfjalksdfjkas;dfjkal;sdjfkasl;dfjkasdl;fjas;dfjka;sdjfka;sdjfkad;sfj
                 jfkd;lasdjf;lasdjf
                 dfjaskdf;jasd;lfajksd
@@ -37,4 +36,4 @@ class SubstopModal extends Component {
     }
 }
 
-export default SubstopModal;
+export default PulseModal;

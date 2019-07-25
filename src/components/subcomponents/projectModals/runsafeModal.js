@@ -2,55 +2,38 @@ import React, {Component} from 'react';
 import { Tab, Button } from 'semantic-ui-react';
 import GithubCorner from 'react-github-corner';
 
-const about = (
-    <p className='work-timeline'>
-        RunSafe is an Android application that uses the Noonlight API to send a distress signal to 911, as well as the
-        user's location and status to a list of present emergency contacts. RunSafe is especailly helpful in time intensive
-        situations, by removing the need for a longer phone call to 911. The application uses the Noonlight API to immediately
-        send the user's location to emergency services, so the time taken to reach the user in a situation is decreased.
-    </p>
-);
-
-const implementation = (
-    <p className='work-timeline'>
-        RunSafe communicated with the Noonlight API using Retrofit, an HTTP client for Android and Java. This allows
-        the application to send HTTP requests to the Noonlight API, to send a distress signal as well as update the user's
-        status in location. Additionally, the applicaiton sends a signal to emergency contacts using Android's SMS Manager.
-    </p>
-);
-
-const panes = [
-    { menuItem: 'About', render: () => <Tab.Pane>{about}</Tab.Pane>},
-    { menuItem: 'Development', render: () => <Tab.Pane>{implementation}</Tab.Pane>},
-];
+import {FiFolder} from 'react-icons/fi'
 
 const stack = (
     <div>
         <Button color='teal'>Java</Button>
-        <Button color='teal'>Android Studio</Button>
-        <Button color='teal'>HTTP Request</Button>
-        <Button color='teal'>XML</Button>
+        <Button color='teal'>Android</Button>
+        <Button color='teal'>API</Button>
+        <Button color='teal'>RetroFit</Button>
     </div>
 
 );
 
-class RunsafeModal extends Component {
+class SubstopModal extends Component {
     constructor() {
         super();
     }
 
     render(){
         return (
-            <div>
+            <div className="project_modal">
+            <div style={{color: '#FFD42C'}}><FiFolder size={32}/></div>
                 <GithubCorner href="https://github.com/rishidk22/subStop-c1-hackathon"/>
-                {stack}
-                <p className='work-timeline'>
-                    <br/>
-                    <Tab menu={{fluid: true, vertical: true, tabular: true}} panes={panes}/>
-                </p>
+                <h>RunSafe</h>
+                <p>dfhjakldshfjalksdfjkas;dfjkal;sdjfkasl;dfjkasdl;fjas;dfjka;sdjfka;sdjfkad;sfj
+                jfkd;lasdjf;lasdjf
+                dfjaskdf;jasd;lfajksd
+                dfjkas;dfjkasd;dfhjakldshfjalksdfjkasjaksfd;lajsdklf;a</p>
+
+              <div className="bottom">{stack}</div>
             </div>
         )
     }
 }
 
-export default RunsafeModal;
+export default SubstopModal;

@@ -5,6 +5,11 @@ import {Link} from 'react-router-dom';
 import Typist from 'react-typist'
 import 'react-typist/dist/Typist.css'
 
+import Footer from './footer'
+
+import { GoFilePdf } from "react-icons/go";
+
+
 const cursor1  = {
     show: true,
     blink: true,
@@ -37,20 +42,13 @@ class Home extends Component {
         return (
             <div className="home">
                 <Typist className = 'home-header' startDelay = {500} cursor = {cursor1} onTypingDone={this.setNext}>
-                    rishi kalluri
+                    hi, there!
                 </Typist>
-                <div>
+                <div style={{color:'#FFD42C'}}>
                     {this.state.renderSecond ? (
-                        <Typist className = 'home-content' startDelay = {1500} blink = {true} cursor = {cursor2}>
-                            B.E. Computer Engineering, Dec. 2020, UIUC
-                            <Typist.Delay ms={1000}/>
+                        <Typist className = 'home-content' blink = {true} cursor = {cursor2}>
+                            my name is rishi, welcome!
                             <br />
-                            <br />
-                            <Link to='/personal_website/experience'>./experience</Link>
-                            <br />
-                            <Link to='/personal_website/projects'>./projects</Link>
-                            <br />
-                            <Link to="/personal_website/resume">./resume</Link>
                         </Typist>
                     ) : null
                     }

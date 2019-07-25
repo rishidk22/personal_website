@@ -4,13 +4,15 @@ import { Card, Modal } from 'semantic-ui-react';
 
 import Typist from 'react-typist';
 import 'react-typist/dist/Typist.css';
-import RunsafeSnippet from './subcomponents/codeSnippets/runsafeSnippet';
-import SfpdSnippet from './subcomponents/codeSnippets/sfpdSnippet';
-import SubspotSnippet from './subcomponents/codeSnippets/subspotSnippet';
+
+import GithubCorner from 'react-github-corner';
 
 import RunsafeModal from './subcomponents/projectModals/runsafeModal';
 import SfpdModal from './subcomponents/projectModals/sfpdModal';
 import SubstopModal from './subcomponents/projectModals/substopModal';
+import PulseModal from './subcomponents/projectModals/pulseModal'
+import KernelModal from './subcomponents/projectModals/kernelModal'
+import CryptoModal from './subcomponents/projectModals/cryptosentModal'
 
 
 const inlineStyle = {
@@ -32,48 +34,51 @@ class Projects extends Component {
 
     render() {
         return (
-            <div style={divStyle}>
-                <Typist className='home-content' startDelay={500}>Click on a project to learn more!</Typist>
-                <br/>
-                <Card.Group itemsPerRow={2}>
-                    <Modal style={inlineStyle.modal} trigger = {
-                        <Card raised={true} color='white'>
-                            <Card.Content>
-                                <Card.Header>SubStop Chrome Extension & REST API</Card.Header>
-                                <SubspotSnippet/>
-                                <Card.Description>Chrome Extension with API to detect subscription payments</Card.Description>
-                            </Card.Content>
-                        </Card>
-                    }>
-                        <Modal.Header>SubStop Chrome Extension & REST API</Modal.Header>
-                        <Modal.Content><SubstopModal/></Modal.Content>
-                    </Modal>
+            <div  className="card_group_margins" style={divStyle}>
+            <br/>
+                <Card.Group stackable={true} doubling={true} itemsPerRow={3}>
+                  <Card raised={true}>
+                      <Card.Content>
+                        <GithubCorner href="https://github.com/rishidk22/subStop-c1-hackathon"/>
+                        <KernelModal/>
+                      </Card.Content>
+                  </Card>
 
-                    <Modal trigger = {
-                        <Card raised={true}>
-                            <Card.Content>
-                                <Card.Header>SFPD Dispatch Anlaysis</Card.Header>
-                                <SfpdSnippet/>
-                                <Card.Description>Analysis and visualization of SFPD dispatch information</Card.Description>
-                            </Card.Content>
-                        </Card>
-                    }>
-                        <Modal.Header>SFPD Dispatch Analysis</Modal.Header>
-                        <Modal.Content><SfpdModal/></Modal.Content>
-                    </Modal>
+                  <Card raised={true}>
+                      <Card.Content>
+                        <GithubCorner href="https://github.com/rishidk22/subStop-c1-hackathon"/>
+                        <CryptoModal/>
+                      </Card.Content>
+                  </Card>
 
-                    <Modal trigger = {
-                        <Card raised={true}>
-                            <Card.Content>
-                                <Card.Header>RunSafe Android Application</Card.Header>
-                                <RunsafeSnippet/>
-                                <Card.Description>Android application to emergency signal to 911 and contacts</Card.Description>
-                            </Card.Content>
-                        </Card>
-                    }>
-                        <Modal.Header>RunSafe Android Application</Modal.Header>
-                        <Modal.Content><RunsafeModal/></Modal.Content>
-                    </Modal>
+                  <Card raised={true}>
+                      <Card.Content>
+                        <GithubCorner href="https://github.com/rishidk22/subStop-c1-hackathon"/>
+                        <SubstopModal/>
+                      </Card.Content>
+                  </Card>
+
+                  <Card raised={true}>
+                      <Card.Content>
+                        <GithubCorner href="https://github.com/rishidk22/subStop-c1-hackathon"/>
+                        <PulseModal/>
+                      </Card.Content>
+                  </Card>
+
+                  <Card raised={true}>
+                      <Card.Content>
+                        <GithubCorner href="https://github.com/rishidk22/subStop-c1-hackathon"/>
+                        <SfpdModal/>
+                      </Card.Content>
+                  </Card>
+                  
+                  <Card raised={true}>
+                      <Card.Content>
+                        <GithubCorner href="https://github.com/rishidk22/subStop-c1-hackathon"/>
+                        <RunsafeModal/>
+                      </Card.Content>
+                  </Card>
+
                 </Card.Group>
             </div>
         )
